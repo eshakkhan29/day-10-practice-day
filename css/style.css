@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.header-area{
+    width: 75%;
+    margin: auto;
+}
+main{
+    width: 75%;
+    background: #ddd;
+    margin: auto;
+    padding: 5px 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin: 0px 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+caption{
+    font-size: 24px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border: 1px solid #ffffff;
+    font-size: 24px;
+    padding: 5px;
+    color: #ffffff;
+}
+tr:nth-child(even){
+    background:#33ccff;
+}
+tr:nth-child(odd){
+    background:	#3399ff;
+}
+thead > tr{
+    background: white;
+}
+.sosial{
+    width: 50%;
+    margin: auto;
+}
+.sosial a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    margin: 0 10px;
+    transition: all .8s ease-in;
+}
+.sosial a:hover .fa-facebook-square{
+    color: #4267B2;
+}
+.sosial a:hover .fa-twitter-square{
+    color: #1DA1F2;
+}
+.sosial a:hover .fa-linkedin{
+    color: #2867B2;;
+}
+.sosial a:hover .fa-youtube-square{
+    color: #FF0000;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.card-1{
+    width: 30%;
+}
+.card-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.animation{
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    border: 2px solid #FF0000;
+}
+.squer{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: #2867B2;
+    border-radius: 50%;
+    animation: ballanimaton 2s ease-out 0s infinite forwards;
+    animation-play-state: running;
+}
+@keyframes ballanimaton {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        left: 300px;
+        top: 430px;
+    }
+    50%{
+        top: 250px;
+    }
+    75%{
+        top: 450px;
+    }
+    85%{
+        top: 400px;
+    }
+    100%{
+        left: 100%;
+        top: 450px;
+    }
+}
+.line {
+    width: 100px;
+    height: 5px;
+    background: #FF0000;
+    position: relative;
+    top: 196px;
+    left: 940px;
+    border-radius: 10px;
+}
+.line2 {
+    width: 100px;
+    height: 5px;
+    background: #FF0000;
+    position: relative;
+    top: 439px;
+    left: 298px;
+    border-radius: 10px;
+    animation: line 2s ease-in 0s infinite forwards;
+}
+
+@keyframes line {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(15deg);
+        transform-origin: right bottom;
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+.align-text{
+    text-align: center;
+    font-size: 50px;
+    color: #33ccff;
+    margin: 20px;
+    padding: 10px;
+}
+.left-align{
+    background: #2867B2;
+    padding: 10px;
+    color: white;
+}
+.center-align{
+    text-align:center;
+    background: #1DA1F2;
+    color: white;
+    padding: 10px;
+}
+.right-align{
+    text-align: right;
+    padding: 10px;
+    background: #FF0000;
+    color: white;
+}
