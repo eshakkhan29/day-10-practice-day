@@ -7,6 +7,10 @@ body{
 .header-area{
     width: 75%;
     margin: auto;
+    background: #ffffff;
+    padding: 5px 20px;
+    position: sticky;
+    top: 0;
 }
 main{
     width: 75%;
@@ -21,15 +25,22 @@ nav ul{
 nav ul li{
     margin: 0px 10px;
 }
+nav{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    top: 0;
+}
 li a{
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
+    padding: 5px 10px;
     transition: all .5s ease;
 }
 li a:hover{
     background: #33ccff;
-    padding: 3px 5px;
     border-radius: 5px;
     color: white;
     font-family: sans-serif;
