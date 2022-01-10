@@ -49,8 +49,10 @@ thead > tr{
     background: white;
 }
 .sosial{
-    width: 50%;
+    width: 20%;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
 .sosial a{
     text-decoration: none;
@@ -124,12 +126,12 @@ thead > tr{
     }
 }
 .line {
-    width: 100px;
+    width: 285px;
     height: 5px;
     background: #FF0000;
     position: relative;
-    top: 196px;
-    left: 792px;
+    top: 195px;
+    left: 877px;
     border-radius: 10px;
 }
 .line2 {
